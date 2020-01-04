@@ -1,0 +1,111 @@
+.body {
+  background-color: #f0d1cc;
+  width: 800px;
+  height: 600px;
+  margin: auto auto;
+  padding: 6rem;
+}
+.body .wrap {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 4rem 4rem 4rem 6rem;
+  position: relative;
+}
+.body .wrap .header {
+  display: flex;
+  justify-content: space-between;
+}
+.body .wrap .header .logo {
+  display: flex;
+  align-items: center;
+}
+.body .wrap .header .logo h2 {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+.body .wrap .header .logo span {
+  border: solid 1px black;
+  font-size: 1.2rem;
+  border-radius: 4px;
+  text-align: center;
+  margin-left: 2px;
+  font-weight: 300;
+  padding: 0px 3px;
+}
+.body .wrap .header .date {
+  display: flex;
+  flex-direction: row;
+}
+.body .wrap .header .date > div {
+  margin-left: 30px;
+}
+.body .wrap .content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+.body .wrap .content .image {
+  width: 50%;
+  z-index: 10000;
+}
+.body .wrap .content .image img {
+  width: 255px;
+  height: 330px;
+}
+.body .wrap .content .product {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3rem 0 2rem 0;
+  line-height: 30px;
+}
+.body .wrap .content .product .first {
+  position: relative;
+}
+.body .wrap .content .product .first .text-high {
+  font-weight: bold;
+  color: #f0d1cc;
+}
+.body .wrap .content .product .first .info {
+  margin-top: 30px;
+}
+.body .wrap .content .product .price {
+  display: flex;
+  justify-content: space-between;
+}
+.body .wrap::after {
+  content: "";
+  position: absolute;
+  border: solid 2px #f0d1cc;
+  width: 100%;
+  bottom: 140px;
+  left: 0;
+}
+.body .text-col-group {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+.body .text-col-group span {
+  color: #f0d1cc;
+}
+.body .text-col-group p {
+  margin-top: 0.2rem;
+}
+.body .text-row-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.body .text-row-group span {
+  color: #f0d1cc;
+  width: 60px;
+  font-weight: bold;
+}
+.body .text-row-group p {
+  margin-left: 1.5rem;
+}
+
+/*# sourceMappingURL=style.css.map */

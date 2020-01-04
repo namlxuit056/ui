@@ -1,0 +1,128 @@
+﻿$color-primary: #069df2;
+$color-high: #99a1a8;
+$color-low: #d9dadb;
+$color-menu: #e0c9bd;
+$color-link: #5dbcd2;
+.body {
+  background-color: black;
+  color: $color-high;
+  a {
+    color: $color-link;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .button--primary {
+    margin-bottom: 0;
+    width: 110px;
+    font-weight: 400;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+    background-color: $color-primary;
+    white-space: nowrap;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 16px;
+    margin-bottom: 1.5rem;
+  }
+  .input-text {
+    background-color: white;
+    cursor: text;
+    margin: 0em;
+    height: 40px;
+    padding: 6px 11px;
+    font-size: 16px;
+    box-sizing: border-box;
+    line-height: 1.5;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    transition: all 0.3s;
+  }
+  .form-group {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    .group {
+      width: calc(50% -2rem);
+      span {
+        font-weight: bold;
+        color: $color-high;
+        display: inline-block;
+        margin-bottom: 0.5rem;
+      }
+      margin-bottom: 1.5rem;
+    }
+  }
+
+  .page {
+    display: flex;
+    font-size: 16px;
+    // line-height: 20px;
+    margin: auto;
+    width: 1382px;
+    height: 945px;
+    background-color: white;
+
+    .image {
+      width: 50%;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .content {
+      position: relative;
+      width: 50%;
+      .header {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        i {
+          color: $color-menu;
+        }
+      }
+      .signup {
+        padding: 8rem 6rem;
+        .intro {
+          h2 {
+            font-size: 1.5rem;
+            font-weight: 500;
+            margin-bottom: 20px;
+          }
+          & > p {
+            font-size: 1rem;
+            color: $color-high;
+            font-weight: 500;
+          }
+          margin-bottom: 60px;
+        }
+        .form {
+          .text-login {
+            span {
+              color: $color-high;
+            }
+            margin-bottom: 30px;
+          }
+        }
+        .term {
+          margin-bottom: 3rem;
+          span {
+            color: $color-high;
+          }
+        }
+        p {
+          color: $color-high;
+        }
+      }
+      .footer {
+        position: absolute;
+        bottom: 20px;
+        right: 30px;
+      }
+    }
+  }
+}

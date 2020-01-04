@@ -1,0 +1,114 @@
+$color-background: #f0d1cc;
+$color-text: #a1a1a1;
+$color-light: #e2d6d6;
+
+.body {
+  background-color: $color-background;
+  width: 800px;
+  height: 600px;
+  margin: auto auto;
+  padding: 6rem;
+  .wrap {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 4rem 4rem 6rem;
+    position: relative;
+    .header {
+      display: flex;
+      justify-content: space-between;
+      .logo {
+        display: flex;
+        align-items: center;
+        h2 {
+          font-weight: 500;
+          font-size: 1.5rem;
+        }
+        span {
+          border: solid 1px black;
+          font-size: 1.2rem;
+          border-radius: 4px;
+          text-align: center;
+          margin-left: 2px;
+          font-weight: 300;
+          padding: 0px 3px;
+        }
+      }
+      .date {
+        display: flex;
+        flex-direction: row;
+        & > div {
+          margin-left: 30px;
+        }
+      }
+    }
+    .content {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 4rem;
+      .image {
+        width: 50%;
+        z-index: 10000;
+        img {
+          width: 255px;
+          height: 330px;
+        }
+      }
+      .product {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 3rem 0 2rem 0;
+        line-height: 30px;
+        .first {
+          position: relative;
+          .text-high {
+            font-weight: bold;
+            color: $color-background;
+          }
+          .info {
+            margin-top: 30px;
+          }
+        }
+        .price {
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      border: solid 2px $color-background;
+      width: 100%;
+      bottom: 140px;
+      left: 0;
+    }
+  }
+  .text-col-group {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    span {
+      color: $color-background;
+      //   font-weight: bold;
+    }
+    p {
+      margin-top: 0.2rem;
+    }
+  }
+  .text-row-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    span {
+      color: $color-background;
+      width: 60px;
+      font-weight: bold;
+    }
+    p {
+      margin-left: 1.5rem;
+    }
+  }
+}

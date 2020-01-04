@@ -1,0 +1,120 @@
+.body {
+  background-color: black;
+  color: #99a1a8;
+}
+.body a {
+  color: #5dbcd2;
+  text-decoration: none;
+  font-weight: bold;
+}
+.body .button--primary {
+  margin-bottom: 0;
+  width: 110px;
+  font-weight: 400;
+  height: 40px;
+  padding: 0 20px;
+  font-size: 16px;
+  border-radius: 4px;
+  text-align: center;
+  color: white;
+  background-color: #069df2;
+  white-space: nowrap;
+  cursor: pointer;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  font-size: 16px;
+  margin-bottom: 1.5rem;
+}
+.body .input-text {
+  background-color: white;
+  cursor: text;
+  margin: 0em;
+  height: 40px;
+  padding: 6px 11px;
+  font-size: 16px;
+  box-sizing: border-box;
+  line-height: 1.5;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+.body .form-group {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.body .form-group .group {
+  width: calc(50% -2rem);
+  margin-bottom: 1.5rem;
+}
+.body .form-group .group span {
+  font-weight: bold;
+  color: #99a1a8;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+.body .page {
+  display: flex;
+  font-size: 16px;
+  margin: auto;
+  width: 1382px;
+  height: 945px;
+  background-color: white;
+}
+.body .page .image {
+  width: 50%;
+}
+.body .page .image img {
+  width: 100%;
+  height: 100%;
+}
+.body .page .content {
+  position: relative;
+  width: 50%;
+}
+.body .page .content .header {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+.body .page .content .header i {
+  color: #e0c9bd;
+}
+.body .page .content .signup {
+  padding: 8rem 6rem;
+}
+.body .page .content .signup .intro {
+  margin-bottom: 60px;
+}
+.body .page .content .signup .intro h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.body .page .content .signup .intro > p {
+  font-size: 1rem;
+  color: #99a1a8;
+  font-weight: 500;
+}
+.body .page .content .signup .form .text-login {
+  margin-bottom: 30px;
+}
+.body .page .content .signup .form .text-login span {
+  color: #99a1a8;
+}
+.body .page .content .signup .term {
+  margin-bottom: 3rem;
+}
+.body .page .content .signup .term span {
+  color: #99a1a8;
+}
+.body .page .content .signup p {
+  color: #99a1a8;
+}
+.body .page .content .footer {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+}
+
+/*# sourceMappingURL=style.css.map */
